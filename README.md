@@ -39,7 +39,7 @@ The Controller layer is responsible for handling incoming HTTP requests and dele
 @RequestMapping("/api/v1/visitor-count-app")
 public class UrlHitController {
     @Autowired
-    private UrlHitService urlHitService;
+    private UrlService urlService;
 
     // Endpoint mappings for various operations
     // ...
